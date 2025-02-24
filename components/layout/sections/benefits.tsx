@@ -11,27 +11,27 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "Blocks",
-    title: "Build Brand Trust",
+    title: "Find Local Professionals Instantly",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Enter your ZIP code and discover a network of trusted home service providers in your area. No more endless searching—just reliable professionals ready to help.",
   },
   {
     icon: "LineChart",
-    title: "More Leads",
+    title: "AI-Powered Matching",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Describe your issue in our AI chat, and we’ll match you with the best contractors for the job. No guesswork, just quick and accurate recommendations.",
   },
   {
     icon: "Wallet",
-    title: "Higher Conversions",
+    title: "Seamless Communication",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Call our single hotline or chat directly with contractors through the platform. Our AI assistant ensures your request is handled efficiently, so you get a response fast.",
   },
   {
     icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    title: "Transparent and Reliable",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "See ratings, reviews, and pricing upfront. Drillbit ensures you get quality service at a fair price, every time.",
   },
 ];
 
@@ -43,12 +43,10 @@ export const BenefitsSection = () => {
           <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+          Your One-Stop Solution for Home Services
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+          From finding the right professional to managing the entire process, Drillbit simplifies home maintenance so you can focus on what matters most.
           </p>
         </div>
 
