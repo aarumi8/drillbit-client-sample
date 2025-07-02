@@ -101,11 +101,15 @@ export async function POST(req: Request) {
         // If we have all needed info, provide recommendations
         if (analysis.zipCode && analysis.timing && analysis.problemType) {
             // Filter businesses based on the problem type
-            const relevantBusinesses = businesses.filter(business =>
-                business.services.some(service =>
-                    analysis.problemType?.toLowerCase().includes(service)
+            const relevantBusinesses = businesses
+                .filter((business) =>
+                    business.services.some((service) =>
+                        analysis.problemType
+                            ?.toLowerCase()
+                            .includes(service) ?? false
+                    )
                 )
-            ).slice(0, 3);
+                .slice(0, 3);
 
             const businessList = relevantBusinesses
                 .map(

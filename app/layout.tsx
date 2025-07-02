@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Drillbit Find",
-  description: "Find TrustedHome Service ProvidersNear You",
+  description: "Find Trusted Home Service Providers Near You",
 };
 
 export default function RootLayout({
