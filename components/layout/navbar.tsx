@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { ChevronsDown } from "lucide-react";
-import { ToggleTheme } from "./toogle-theme";
+import { ToggleTheme } from "./toggle-theme";
 import Link from "next/link";
 
 export const Navbar = () => {
